@@ -10,8 +10,13 @@ __jobadder-1__ (project folder) <br/>
 &ensp;&ensp;&ensp;&ensp;|--CartPage.js（cart page file）<br/>
 &ensp;&ensp;&ensp;&ensp;|--LoginPage.js（login page file）<br/>
 &ensp;&ensp;&ensp;&ensp;|--ProductsPage.js（products page file）<br/>
+&ensp;&ensp;__|--API_Auto__（folder）<br/>
+&ensp;&ensp;&ensp;&ensp;|--jobadder.postman_collection.json（postman collection file）<br/>
+&ensp;&ensp;&ensp;&ensp;|--jobadder_API_testdata.txt（API testdata file）<br/>
 &ensp;&ensp;|--ReadMe.md（self discription file）<br/>
-&ensp;&ensp;|--cypress.json (cypress configuration file)
+&ensp;&ensp;|--cypress.json (cypress configuration file) <br/>
+
+
 
 ### Built With
 * Cypress
@@ -23,10 +28,11 @@ __jobadder-1__ (project folder) <br/>
 
 
 ### Prerequisites
-This is an example of how to list things you need to use the software and how to install them.
+You need to install some software in your local computer
 
-* npm
-* npm install npm@latest -g
+* Cypress
+* Postman
+
 ### Installation
 Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
 
