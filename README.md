@@ -1,17 +1,17 @@
 ## About The Project
 This project consists of UI testing and API testing. I use Cypress to build test automation framework. I also introduce POM and DDT into this design. I utilize Postman to test API automatically by loading testdata stored in a file.
 
-Test_framework
-    |--config（配置文件）
-    |--data（数据文件）
-    |--drivers（驱动）
-    |--log（日志）
-    |--report（报告）
-    |--test（测试用例）
-    |--utils（公共方法）
-    |--src（main函数）
-    |--ReadMe.md（自述说明性文件，框架所需要的环境及用法）
-
+jobadder-1 (project folder) <br/>
+&ensp;&ensp;|--fixtures（folder）<br/>
+&ensp;&ensp;&ensp;&ensp;|--products.json（testdata file）<br/>
+&ensp;&ensp;|--integration（folder）<br/>
+&ensp;&ensp;&ensp;&ensp;|--ui_autotest.spec.js（test file）<br/>
+&ensp;&ensp;|--PageObject（folder）<br/>
+&ensp;&ensp;&ensp;&ensp;|--CartPage.js（cart page file）<br/>
+&ensp;&ensp;&ensp;&ensp;|--LoginPage.js（login page file）<br/>
+&ensp;&ensp;&ensp;&ensp;|--ProductsPage.js（products page file）<br/>
+&ensp;&ensp;|--ReadMe.md（self discription file）<br/>
+&ensp;&ensp;|--cypress.json (cypress configuration file)
 ### Built With
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
