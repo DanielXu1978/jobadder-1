@@ -28,18 +28,33 @@ __jobadder-1__ (project folder) <br/>
 
 
 ### Prerequisites
-You need to install some software in your local computer
+You need to install some software in your local computer. My computer's OS is windows 7.
 
 * Cypress
+* Node.js
 * Postman
 
 ### Installation
-Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
 
-1. Get a free API Key at https://example.com
-2. Clone the repo
-3. git clone https://github.com/your_username_/Project-Name.git
-Install NPM packages
-npm install
-Enter your API in config.js
-const API_KEY = 'ENTER YOUR API';
+__UI automation:__
+1. download all folders and file to your local computer.<br/>
+   open Git Bash and execute command: git clone https://github.com/DanielXu1978/jobadder-1.git 
+2. find cypress.json under your cypress installation path like "E:\Cypress\node_modules\.bin" and modify it referring to my cypress.json.  <br/>
+  for example, in my computer the project path is E:/jobadder-1/
+  "integrationFolder": "E:/jobadder-1/integration",
+	"fixturesFolder": "E:/jobadder-1/fixtures"
+3. launch Cypress Studio
+  open cmd terminal and execute command "cypress open". For example, "E:\Cypress\node_modules\.bin" is the cypress installation path
+  E:\software\Cypress\node_modules\.bin>cypress open
+4. the cypress studio lists the test file "ui_autotest.spec.js" in the folder "integration"
+  click the file and lunch Test Runner to execute test
+ 
+__API automation:__
+1. open Postman
+2. import jobadder.postman_collection.json from folder "API_Auto"
+3. select this collection and click "Run Collection"
+4. set parameters "Delay" and "Data"
+  Delay: 20 or other values
+  Data: you can select the file "jobadder_API_testdata.txt" from folder "API_Auto"
+  
+5. click run 
