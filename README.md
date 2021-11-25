@@ -1,20 +1,29 @@
 ## About The Project
-This project consists of UI testing and API testing. I use Cypress to build test automation framework. I also introduce POM and DDT into this design. I utilize Postman to test API automatically by loading testdata stored in a file.
+This project consists of UI testing and API testing. I use Cypress to build test automation framework. I also introduce POM and DDT into this design. I utilize Postman to test API automatically by loading testdata stored in a file.<br/>
+<br/>
+1.UI Automation framework comprises of 3 folders<br/>
+__UI Automation Framework:__  <br/>
+&ensp;&ensp;&ensp;&ensp;__|--fixtures__（folder）<br/>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;|--products.json（testdata file）<br/>
+<br/>
+&ensp;&ensp;&ensp;&ensp;__|--integration__（folder）<br/>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;|--ui_autotest.spec.js（test file）<br/>
+<br/>
+&ensp;&ensp;&ensp;&ensp;__|--PageObject__（folder）<br/>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;|--CartPage.js（cart page file）<br/>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;|--LoginPage.js（login page file）<br/>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;|--ProductsPage.js（products page file）<br/>
+<br/>
+&ensp;&ensp;&ensp;&ensp;|--cypress.json (cypress configuration file) <br/>
+<br/>
+<br/>
+__API Automation:__  <br/>
+&ensp;&ensp;&ensp;__|--API_Auto__（folder）<br/>
+&ensp;&ensp;&ensp;&ensp;&ensp;|--jobadder.postman_collection.json（postman collection file）<br/>
+&ensp;&ensp;&ensp;&ensp;&ensp;|--jobadder_API_testdata.txt（API testdata file）<br/>
+<br/>
+ReadMe.md（self discription file）<br/>
 
-__jobadder-1__ (project folder) <br/>
-&ensp;&ensp;__|--fixtures__（folder）<br/>
-&ensp;&ensp;&ensp;&ensp;|--products.json（testdata file）<br/>
-&ensp;&ensp;__|--integration__（folder）<br/>
-&ensp;&ensp;&ensp;&ensp;|--ui_autotest.spec.js（test file）<br/>
-&ensp;&ensp;__|--PageObject__（folder）<br/>
-&ensp;&ensp;&ensp;&ensp;|--CartPage.js（cart page file）<br/>
-&ensp;&ensp;&ensp;&ensp;|--LoginPage.js（login page file）<br/>
-&ensp;&ensp;&ensp;&ensp;|--ProductsPage.js（products page file）<br/>
-&ensp;&ensp;__|--API_Auto__（folder）<br/>
-&ensp;&ensp;&ensp;&ensp;|--jobadder.postman_collection.json（postman collection file）<br/>
-&ensp;&ensp;&ensp;&ensp;|--jobadder_API_testdata.txt（API testdata file）<br/>
-&ensp;&ensp;|--ReadMe.md（self discription file）<br/>
-&ensp;&ensp;|--cypress.json (cypress configuration file) <br/>
 
 
 
